@@ -1,1 +1,17 @@
 @tailwind components;
+
+.notification {
+  @apply flex w-full bg-white rounded-md p-4 text-sm;
+  &.unread {
+    @apply bg-very-light-grayish-blue;
+  }
+
+  .name,
+  .message {
+    @apply font-bold hover:text-np-blue;
+  }
+
+  .time {
+    @apply text-grayish-blue;
+  }
+}
