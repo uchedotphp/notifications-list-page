@@ -43,6 +43,6 @@
 
 <style lang="scss">
   .main-container {
-    @apply bg-np-white h-screen sm:h-auto md:min-h-[85vh] md:max-h-[85vh] sm:max-w-[60vw] lg:max-w-[42vw] w-screen overflow-y-auto md:rounded-lg px-5;
+    @apply bg-np-white h-screen sm:h-auto md:min-h-[85vh] md:max-h-[85vh] sm:max-w-[60vw] lg:max-w-[42vw] w-screen overflow-y-auto md:rounded-lg px-4 sm:px-5;
   }
 </style>
