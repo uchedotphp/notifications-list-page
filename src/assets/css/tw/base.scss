@@ -1,2 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
 @tailwind base;
+
+:root {
+  @apply text-dark-grayish-blue bg-very-light-grayish-blue sm:grid place-content-center h-full;
+  /* font-family: "PlusJakartaSans"; */
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: -0.004em;
+}
+
+::selection {
+  @apply bg-np-red text-np-blue;
+}
